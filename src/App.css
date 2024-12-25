@@ -1,0 +1,26 @@
+<a href="/">
+      <img
+        src={`${process.env.PUBLIC_URL}/assets/logo (3).png`}
+        alt="StarLight Games Logo"
+        width="30%"
+        height="30%"
+      />
+    </a>
+    <div id="t1">
+      <a href="/" className="nav-link">
+        <button type="button">HOME</button>
+      </a>
+      <a href="/community" className="nav-link">
+        <button type="button">COMMUNITY</button>
+      </a>
+      <a href="/contactus" className="nav-link">
+        <button type="button">CONTACT US</button>
+      </a>
+      <a href="/checkout">
+        <img src="/assets/cart.jpg" alt="cart" height="25" width="25" />
+        <button type="button" className="cart">
+          0
+        </button>
+      </a>
+    </div>
+  </header>
